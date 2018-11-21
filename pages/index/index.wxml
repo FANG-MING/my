@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="card_wrap">
+        <view class="card_item card1 ">
+            <span class="change_icon">
+                <image src="/images/dangao.png"></image>
+            </span>
+            <view class="card_info">
+                <blockquote class="card_info_mes_title">80岁生日快乐！</blockquote>
+                <span class="card_info_mes_item" style="margin-top: 15px;">风里雨里，皖院等你</span>
+                <span class="card_info_mes_item">桃李不言，下自成蹊</span>
+                <span class="card_info_mes_item">皖院八十周年校庆</span>
+            </view>
+            <view bindtap="toselect" class="btn-cta buy_btn" id="1">一起换头像吧！</view>
+            <image src="/images/xianhua1.jpg"></image>
+            <view class="footer">出品人：皖院新媒体中心 技术支持：Mr.Fang</view>
+        </view>
+    </view>
+</view>

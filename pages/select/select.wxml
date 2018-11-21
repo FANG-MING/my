@@ -1,0 +1,8 @@
+<view class="tou-list-container">
+    <view class="big-photo-list">
+        <view bindtap="detail" class="big-photo-item" data-tounum="{{index}}" wx:for="{{touList}}">
+            <image class="photo" src="{{item.coverImgUrl}}"></image>
+            <text class="tou-name">{{item.name}}</text>
+        </view>
+    </view>
+</view>

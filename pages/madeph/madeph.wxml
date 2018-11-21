@@ -1,0 +1,13 @@
+<view class="container flex">
+    <view>
+        <canvas canvasId="myCanvas" class="bg">
+            <image src="{{bgsrc}}" style="width:10rem; height:10rem;"></image>
+            <image class="avatar {{bgcss}}" src="{{src}}"></image>
+        </canvas>
+        <view style="position:absolute;left:400rpx;">
+            <canvas canvasId="ahaucanvas" style="height:840px;width:840px;position:absolute;left:400rpx;"></canvas>
+        </view>
+        <button bindtap="upload" class="item flex" style="margin-bottom:5px">选择图片</button>
+        <button bindtap="generate" class="item flex" type="primary">生成头像</button>
+    </view>
+</view>
